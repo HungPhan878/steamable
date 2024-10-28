@@ -11,11 +11,11 @@
 - tạo ra trang edit video và làm chức năng edit video đó.
   đã xong
 - tạo edit gồm đổi tên tag, categories and title video là được đã xong và chỉnh lại db một chút đã xong.
-- Thêm nhìu video và nhận api từ người khác gửi tới ta tạo thêm key để nhận nha.
+- Thêm nhìu video (đã xong) và nhận api từ người khác gửi tới ta tạo thêm key để nhận nha.đã xong
 - Các vấn đề:
   1.trong khi upload nãy thì phải chuyển qua trang khác liền .
 
-  2. nên đưa video mới upload lên đầu trang để người dùng nhận biết.
+  2. nên đưa video mới upload lên đầu trang để người dùng nhận biết.bên font-end.
 
   -Lưu ý:
 
