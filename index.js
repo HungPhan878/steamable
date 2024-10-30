@@ -13,15 +13,15 @@ function main() {
           formData.append("fileVideo[]", $(this)[0].files[i]);
         }
         $.ajax({
-          // url: "http://localhost:81/streamable/api.php",
-          url: "uploadVideoFunction.php", // File PHP xử lý cập nhật
+          url: "https://phanvanhung.toidayhoc.com/streamable/api.php",
+          // url: "uploadVideoFunction.php", // File PHP xử lý cập nhật
           type: "POST",
           data: formData,
           contentType: false,
           processData: false, // Không xử lý data thành chuỗi query string application/json
-          // headers: {
-          //   API_KEY: "upload_video_toi_day_hoc", // Thêm API Key vào header
-          // },
+          headers: {
+            API_KEY: "upload_video_toi_day_hoc", // Thêm API Key vào header
+          },
           success: function (response) {
             // Thành công, có thể chuyển hướng
             // window.location.href = "/streamable/dashboard.php"; // Chuyển đến trang sau khi upload thành công

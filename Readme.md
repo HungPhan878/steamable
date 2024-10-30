@@ -13,9 +13,15 @@
 - tạo edit gồm đổi tên tag, categories and title video là được đã xong và chỉnh lại db một chút đã xong.
 - Thêm nhìu video (đã xong) và nhận api từ người khác gửi tới ta tạo thêm key để nhận nha.đã xong
 - Các vấn đề:
-  1.trong khi upload nãy thì phải chuyển qua trang khác liền .
+  1.trong khi upload nãy thì phải chuyển qua trang khác liền .đã xong và chỉ còn dùng hai lần ajax gửi api là được một cái chuyển trang và một cái xử lý api.
 
   2. nên đưa video mới upload lên đầu trang để người dùng nhận biết.bên font-end.
+
+  3. Đăng lên sv and cài db completed
+
+  4. kết nối hoặc cài công cụ bên sv ffmpeg. completed
+
+  5. thêm aws vào là ok.
 
   -Lưu ý:
 
@@ -25,3 +31,5 @@
 
 * Hồi cần xem lại logic của chức năng edit nha và xác định cả id và name luôn để không tạo qua nhiều
   bảng ghi trùng tên categories trong db bảng ctg và tagname nên không cần xoá đồng bộ cũng được.
+
+* Thường gửi api từ localhost qua sẽ bị chặn nha

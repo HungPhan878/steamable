@@ -17,7 +17,6 @@ if (!isset($headers['API_KEY']) || $headers['API_KEY'] !== API_KEY) {
 //     exit();
 // }
 
-
 require 'vendor/autoload.php';
 
 use FFMpeg\FFMpeg;
