@@ -25,6 +25,7 @@
 </head>
 
 <body>
+    <h1>NHật MInh</h1>
     <div class="header container sticky">
         <div><img src="./img/logo.JPG" alt=""></div>
         <div class="head-mini">
@@ -57,6 +58,7 @@
             <img src="./img/vector7.svg" alt="">
         </div>
     </div>
+    
     <div class="slide-big">
         <div class="slidevideo">
             <div class="wrapper">
