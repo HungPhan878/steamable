@@ -25,26 +25,182 @@
 </head>
 
 <body>
-    <h1>NHật MInh</h1>
-    <div class="header container sticky">
-        <div><img src="./img/logo.JPG" alt=""></div>
-        <div class="head-mini">
-            <h5>Tools</h5>
-            <i class='fas fa-angle-down'></i>
+<div class="header container sticky">
+        <div class="logo-menu">
+            <div class="logo-streamable"><img src="./img/logo.JPG" alt="Logo" height="40"></div>
+            <nav class="menu-header navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                    <!-- <a class="navbar-brand" href="#">Tools</a> -->
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                          
+                           
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tools</a>
+                                <ul class="dropdown-menu vw-100 position-absolute bottom-0 start-50 translate-middle-x border-0 " aria-labelledby="navbarDropdown">
+                                    <div class="menu-detail-mobile">
+                                        <ul class="menu-1-mobile list-unstyled">
+                                            <li><strong>Upload</strong></li>
+                                            <li><p>Upload video</p></li>
+                                            <li><p>Clip from URL</p></li>
+                                            <li><p>Backup video</p></li>
+                                        </ul>
+                                        <ul class="menu-1-mobile list-unstyled">
+                                            <li><strong>Edit</strong></li>
+                                            <li><p>Crop video</p></li>
+                                            <li><p>Mute video</p></li>
+                                            <li><p>Merge video</p></li>
+                                            <li><p>Trim video</p></li>
+                                            <li><p>Rotate video</p></li>
+                                            <li><p>Compress video</p></li>
+                                        </ul>
+                                        <ul class="menu-1-mobile list-unstyled">
+                                            <li><strong>Manage</strong></li>
+                                            <li><p>Simple video manager</p></li>
+                                            <li><p>Video privacy</p></li>
+                                            <li><p>Password protected video</p></li>
+                                        </ul>
+                                        <ul class="menu-1-mobile list-unstyled">
+                                            <li><strong>Share</strong></li>
+                                            <li><p>Share video link</p></li>
+                                            <li><p>Send multiple videos</p></li>
+                                            <li><p>Embed video</p></li>
+                                            <li><p>Download video</p></li>
+                                            <li><p>Ad free video player</p></li>
+                                        </ul>
+                                    </div>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Princing</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Log in</a>
+                            </li>
+                           
+                        </ul>
+                        <button type="button" class="btn btn-primary">Sign up for free</button>
+                    </div>
+                </div>
+            </nav>
         </div>
-        <h5>Princing</h5>
-        <h5>Blog</h5>
-        <h5>Log in</h5>
-
-        <div>
-            <button type="button" class="btn btn-primary bt-head">Sign up for free</button>
-
-        </div>
-
     </div>
+    <!-- <div class="logo-menu-mobile none-computer">
+        <div class="logo-head ">
+            <div class="lg-h"><img src="./img/Capture-logo.JPG" alt=""></div>
+        </div>
+        <div class="btn-group bt-h">
+            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#"></a>
+
+                    <div class="tools-button-mobile">
+                        <div class="t-bt-tools">
+                            <span>Tools</span>
+                            <div class="arrow d-flex">
+                                <div class="arrow-down">
+                                    <i class="fa-solid fa-chevron-down"></i>
+                                </div>
+                                <div class="arrow-up">
+                                    <i class="fa-solid fa-chevron-up"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tools-menu-mobile  ">
+                            <div class="menu-detail-mobile ">
+                                <ul class="menu-1-mobile">
+                                    <li><strong>Upload</strong></li>
+                                    <li>
+                                        <p>Upload video</p>
+                                    </li>
+                                    <li>
+                                        <p>Clip from URL</p>
+                                    </li>
+                                    <li>
+                                        <p>Backup video</p>
+                                    </li>
+                                </ul>
+                                <ul class="menu-1-mobile">
+                                    <li><strong>Edit</strong></li>
+                                    <li>
+                                        <p>Crop video</p>
+                                    </li>
+                                    <li>
+                                        <p>Mute video</p>
+                                    </li>
+                                    <li>
+                                        <p>Merge video</p>
+                                    </li>
+                                    <li>
+                                        <p>Trim video</p>
+                                    </li>
+                                    <li>
+                                        <p>Rotate video</p>
+                                    </li>
+                                    <li>
+                                        <p>Compress video</p>
+                                    </li>
+                                </ul>
+                                <ul class="menu-1-mobile">
+                                    <li><strong>Manage</strong></li>
+                                    <li>
+                                        <p>Simple video manager</p>
+                                    </li>
+                                    <li>
+                                        <p>Video privacy</p>
+                                    </li>
+                                    <li>
+                                        <p>Password protected video</p>
+                                    </li>
+                                </ul>
+                                <ul class="menu-1-mobile">
+                                    <li><strong>Share</strong></li>
+                                    <li>
+                                        <p>Share video link</p>
+                                    </li>
+                                    <li>
+                                        <p>Send multiple videos</p>
+                                    </li>
+                                    <li>
+                                        <p>Embed video</p>
+                                    </li>
+                                    <li>
+                                        <p>Download video</p>
+                                    </li>
+                                    <li>
+                                        <p>Ad free video player</p>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                </li>
+                <li><a class="dropdown-item" href="#">Princing</a></li>
+                <li><a class="dropdown-item" href="#">Blog</a></li>
+                <li><a class="dropdown-item" href="#">Log in</a></li>
+                <div>
+                    <button type="button" class="btn btn-primary bt-h2">Sign up for free</button>
+                </div>
+
+
+            </ul>
+        </div>
+
+
+    </div> -->
+
     <div class="head-rela">
 
-        <div class="vector-4">
+        <div class="vector-4 none-moblie">
             <img src="./img/vector4.svg" alt="">
 
         </div>
@@ -54,13 +210,12 @@
                 Join thousands of businesses and creators who trust Streamable to upload and share their videos.
             </h4>
         </div>
-        <div class="vector-7">
+        <div class="vector-7 none-moblie">
             <img src="./img/vector7.svg" alt="">
         </div>
     </div>
-    
     <div class="slide-big">
-        <div class="slidevideo">
+        <div class="slidevideo none-moblie">
             <div class="wrapper">
                 <div class="track">
                     <div class="logo">
@@ -152,12 +307,12 @@
         <div class="form-on container-1">
             <h4>Select Videos to upload</h4>
             <p>Or drag and drop video files </p>
-            <button type="button" id="btn-upload" class="btn btn-primary btbig">Upload video for free</button>
-            <input type="file" class="form-control" accept=".mp4, .avi, .mov, .mpeg" id="btn-upload-video" hidden
-                required multiple>
+            <form id="uploadForm" enctype="multipart/form-data">
+                <input type="file" name="fileToUpload" accept="video/*" required>
+                <button type="button" id="uploadBtn" class="btn btn-primary btbig">Upload Video For Free</button>
+            </form>
             <h5>*No credit card or account required </i></h5>
-            <div class="form-sp"><span>By continuing, you accept our <a href="">Terms of Sevice</a> and acknowledge
-                    receipt our <a href=""> Privacy Policy</a> </span></div>
+            <div class="form-sp"><span>By continuing, you accept our <a href="">Terms of Sevice</a> and acknowledge receipt our <a href=""> Privacy Policy</a> </span></div>
 
         </div>
 
@@ -170,34 +325,44 @@
 
 
         </div>
-        <div class="logo-5 container-1">
+        <div class="logo-5 container-1 none-moblie">
             <div><img src="./img/image.png" alt=""></div>
             <div><img src="./img/image5.png" alt=""></div>
             <div><img src="./img/image2.png" alt=""></div>
             <div><img src="./img/image3.png" alt=""></div>
             <div><img src="./img/image4.png" alt=""></div>
         </div>
-        <div class="vector-5">
+        <div class="logo-5-mobile container-1 none-computer">
+            <div class="logo-m-1">
+                <div><img src="./img/image2.png" alt=""></div>
+                <div><img src="./img/image5.png" alt=""></div>
+            </div>
+            <div class="logo-m-2">
+                <div><img src="./img/image.png" alt=""></div>
+
+                <div><img src="./img/image3.png" alt=""></div>
+            </div>
+            <div class="logo-m-3"><img src="./img/image4.png" alt=""></div>
+        </div>
+        <div class="vector-5 none-moblie">
             <img src="./img/vector5.svg" alt="">
         </div>
         <div class="gif-vect container-1">
-            <div class="vector-6">
+            <div class="vector-6 none-moblie">
                 <img src="./img/vector6.svg" alt="">
             </div>
             <div class="content-gif">
                 <div class="img-g"><img src="./img/upload-GIF.gif" alt=""></div>
                 <div class="ct">
                     <h1>Upload and share your videos instantly</h1>
-                    <span>The fastest video uploader on the web — don't take our word for it, try it! After your videos
-                        are uploaded, stream in 4K UHD (60fps). No home theater necessary.</span>
+                    <span>The fastest video uploader on the web — don't take our word for it, try it! After your videos are uploaded, stream in 4K UHD (60fps). No home theater necessary.</span>
                 </div>
             </div>
             <div class="content-gif2">
 
                 <div class="ct2">
                     <h1>Video editing that gets out of your way</h1>
-                    <span>With one-click resizing to landscape, square, or vertical formats, you can get back hours of
-                        time while creating videos for every platform and channel.</span>
+                    <span>With one-click resizing to landscape, square, or vertical formats, you can get back hours of time while creating videos for every platform and channel.</span>
                 </div>
                 <div class="img-g2"><img src="./img/edit-animation-compressed-v2.gif" alt=""></div>
             </div>
@@ -213,9 +378,7 @@
     <div class="body-c container">
         <div class="table">
             <div class="tab-sp">
-                <span>I love it when a web tool provides a simple service seamlessly. @streamable is a super clean
-                    #video publishing tool. Host a vid with no surrounding noise but the logo. Embed tool as well. Great
-                    place to host and share a video.</span>
+                <span>I love it when a web tool provides a simple service seamlessly. @streamable is a super clean #video publishing tool. Host a vid with no surrounding noise but the logo. Embed tool as well. Great place to host and share a video.</span>
             </div>
             <div class="ava">
                 <div class="ava-r"><img src="./img/danny.jpg" alt=""></div>
@@ -228,8 +391,7 @@
 
         </div>
         <div class="table ">
-            <div class="tab-sp"><SPan>Shoutout to @streamable for being so good at converting videos, else I would not
-                    have any awesome plays of the game to share with my server members!</SPan></div>
+            <div class="tab-sp"><SPan>Shoutout to @streamable for being so good at converting videos, else I would not have any awesome plays of the game to share with my server members!</SPan></div>
             <div class="ava">
                 <div class="ava-r"><img src="./img/uponia.png" alt=""></div>
                 <div>
@@ -248,7 +410,7 @@
         <div class="content-f container-1">
             <h1>Get started for free</h1>
             <h4>Upload and share your first video with Streamable today.</h4>
-            <div class="vector-8">
+            <div class="vector-8 ">
                 <img src="./img/vector8.svg" alt="">
                 <div>
                     <button type="button" class="btn btn-primary bt-foot">Sign up for free</button>
@@ -310,8 +472,20 @@
     </div>
     </div>
 
-    <!-- thêm ?v=... để fix lỗi file js không update khi f5 lại trang -->
-    <script src="./index.js?v=<?php echo time(); ?>"></script>
+    <script>
+        document.querySelector('.tools-button').addEventListener('click', function() {
+            this.classList.toggle('active');
+        });
+        document.addEventListener('DOMContentLoaded', () => {
+            const toolsButton = document.querySelector('.tools-button-mobile');
+            const toolsMenu = document.querySelector('.tools-menu-mobile');
+
+            toolsButton.addEventListener('click', () => {
+                toolsButton.classList.toggle('active'); // Chuyển đổi class active
+            });
+        });
+    </script>
+
 </body>
 
 </html>
