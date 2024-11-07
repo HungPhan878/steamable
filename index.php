@@ -81,11 +81,11 @@
                                 <a class="nav-link active" aria-current="page" href="#">Blog</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Log in</a>
+                                <a class="nav-link active" aria-current="page" href="streamlogin.php">Log in</a>
                             </li>
                            
                         </ul>
-                        <button type="button" class="btn btn-primary">Sign up for free</button>
+                        <a type="button" class="btn btn-primary" href="streamregis.php">Sign up for free</a>
                     </div>
                 </div>
             </nav>
@@ -413,7 +413,7 @@
             <div class="vector-8 ">
                 <img src="./img/vector8.svg" alt="">
                 <div>
-                    <button type="button" class="btn btn-primary bt-foot">Sign up for free</button>
+                    <a type="button" class="btn btn-primary bt-foot" href="streamregis.php">Sign up for free</a>
                 </div>
             </div>
         </div>
